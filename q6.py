@@ -24,23 +24,21 @@ def find_first_negative(lst):
         index += 1
     
     # If no negative found
-    return "No negatives"
-
+    return "No negative"
 
 # Task 2
 # Invoke the function "find_first_negative" using the following scenario:
-
-print("=== Test Case 1 ===")
-test1 = [3, 5, -1, 7, -2, 8]
-result1 = find_first_negative(test1)
-print(f"List: {test1}")
-print(f"First negative: {result1}")
+# - [3, 5, -1, 7, -2, 8]
+test = [3, 5, -1, 7, -2, 8]
+result = find_first_negative(test)
+print(f"List: {test}")
+print(f"First negative: {result}")
 print()
 
-print("=== Test Case 2 ===")
-test2 = [2, 10, 7, 0]
-result2 = find_first_negative(test2)
-print(f"List: {test2}")
-print(f"First negative: {result2}")
+# - [2, 10, 7, 0]
+test = [2, 10, 7, 0]
+result = find_first_negative(test)
+print(f"List: {test}")
+print(f"First negative: {result}")
 print()
 

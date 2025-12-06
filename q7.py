@@ -19,13 +19,11 @@ class Car:
 
 # Task 2
 # Create an instance of the Car class with the following attributes and call describe_car method:
-# - Make: Toyota, Model: Corolla, Year: 2020
-
 print("=== Basic Test ===")
 # Create car instance
 my_car = Car("Toyota", "Corolla", 2020)
 
-# Call describe_car method
+# - Make: Toyota, Model: Corolla, Year: 2020
 print("Car description:")
 my_car.describe_car()
 print()

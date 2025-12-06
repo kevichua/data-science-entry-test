@@ -19,14 +19,13 @@ def check_divisibility(num, divisor):
 
 # Task 2
 # Invoke the function "check_divisibility" using the following scenarios:
-
-print("=== Test Case 1 ===")
-result1 = check_divisibility(10, 2)
-print(f"check_divisibility(10, 2) = {result1}")
+# - 10, 2
+result = check_divisibility(10, 2)
+print(f"check_divisibility(10, 2) = {result}")
 print()
 
-print("=== Test Case 2 ===")
-result2 = check_divisibility(7, 3)
-print(f"check_divisibility(7, 3) = {result2}")
+# - 7, 3
+result = check_divisibility(7, 3)
+print(f"check_divisibility(7, 3) = {result}")
 print()
 

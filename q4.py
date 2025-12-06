@@ -15,18 +15,18 @@ def string_reverse(s):
 
 # Task 2
 # Invoke the function "string_reverse" using the following scenarios:
+# - "Hello World"
 
-print("=== Test Case 1 ===")
-test1 = "Hello World"
-result1 = string_reverse(test1)
-print(f"Original: '{test1}'")
-print(f"Reversed: '{result1}'")
+test = "Hello World"
+result = string_reverse(test)
+print(f"Original: '{test}'")
+print(f"Reversed: '{result}'")
 print()
 
-print("=== Test Case 2 ===")
-test2 = "Python"
-result2 = string_reverse(test2)
-print(f"Original: '{test2}'")
-print(f"Reversed: '{result2}'")
+# - "Python"
+test = "Python"
+result = string_reverse(test)
+print(f"Original: '{test}'")
+print(f"Reversed: '{result}'")
 print()
 

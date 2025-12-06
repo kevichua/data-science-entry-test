@@ -16,20 +16,18 @@ def update_dictionary(dct, key, value):
     
     return dct
 
-
 # Task 2
 # Invoke the function "update_dictionary" using the following scenarios:
-
-print("=== Test Case 1 ===")
+# - {}, "name", "Alice"
 print("Scenario: {}, 'name', 'Alice'")
 print("Expected: Add new key 'name' with value 'Alice'")
-result1 = update_dictionary({}, "name", "Alice")
-print(f"Result: {result1}")
+result = update_dictionary({}, "name", "Alice")
+print(f"Result: {result}")
 print()
 
-print("=== Test Case 2 ===")
+# - {"age": 25}, "age", 26
 print("Scenario: {'age': 25}, 'age', 26")
 print("Expected: Print original value 25, then update to 26")
-result2 = update_dictionary({"age": 25}, "age", 26)
-print(f"Result: {result2}")
+result = update_dictionary({"age": 25}, "age", 26)
+print(f"Result: {result}")
 print()
