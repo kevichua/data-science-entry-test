@@ -24,16 +24,16 @@ def find_and_replace(lst, find_val, replace_val):
 # Invoke the function "find_and_replace" using the following scenarios:
 
 # Test case 1: Replace integers
-test1 = [1, 2, 3, 4, 2, 2]
-result1 = find_and_replace(test1, 2, 5)
-print(f"Original: {test1}")
-print(f"After replacing 2 with 5: {result1}")
+test = [1, 2, 3, 4, 2, 2]
+result = find_and_replace(test, 2, 5)
+print(f"Original: {test}")
+print(f"After replacing 2 with 5: {result}")
 print()
 
 # Test case 2: Replace strings
-test2 = ["apple", "banana", "apple"]
-result2 = find_and_replace(test2, "apple", "orange")
-print(f"Original: {test2}")
-print(f"After replacing 'apple' with 'orange': {result2}")
+test = ["apple", "banana", "apple"]
+result = find_and_replace(test, "apple", "orange")
+print(f"Original: {test}")
+print(f"After replacing 'apple' with 'orange': {result}")
 print()
 
